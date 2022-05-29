@@ -33,3 +33,22 @@
   flex: 2;
   font-size: 20px
 }
+
+@media (max-width: 700px) {
+  .person-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 60%;
+    margin-bottom: 20px;
+  }
+  
+  
+}
