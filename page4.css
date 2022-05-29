@@ -6,6 +6,47 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+.contact-heading{
+  width: 100%;
+  font-size: 36px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-content{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.contact-content-col1{
+  flex: 1;
+}
+
+.contact-content-col2{
+  flex: 1;
+}
+
+.contact-item-heading{
+  color: gray;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contact-item-content{
+  color: black;
+  font-size: 16px;
+  padding: 2px;
+  margin-bottom: 25px;
 }
 
 
