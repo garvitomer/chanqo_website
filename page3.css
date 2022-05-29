@@ -11,10 +11,30 @@
 .faq-headings{
   font-size: 30px;
   margin-top: 50px;
+  margin-bottom: 25px;
   color: white;
   font-weight: bold;
+  font-style: italic;
+  
 }
 
+.faq-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 20%;
+}
 
+.faq-question{
+  font-size: 19px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
 
+.faq-answer{
+  font-size: 16px;
+  color: white
+}
 
