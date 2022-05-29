@@ -123,6 +123,10 @@ main{
 
 
 @media (max-width: 700px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .nav-links ul li {
     display: block;
   }
