@@ -57,6 +57,52 @@ nav .fa {
   display: none;
 }
 
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download-app-div{
+  width: 400px;
+}
+
+.download-button{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(96, 91, 91);
+  padding: 12px 34px;
+  background: white;
+  position: relative;
+  cursor: pointer;
+  border-radius: 45px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  top: 60%;
+  left: 20%;
+  align-items: center;
+  font-size: 20px;
+}
+
+.download-button:hover{
+  background-color: #e6b1ad;
+   box-shadow: 0px 15px 20px  #dec5c3;
+  color: #fff;
+  transform: translateY(-7px);
+  transition: .5s;
+}
+
+.app-pic-div{
+  flex: 1;
+}
+
+.app-pic{
+  width: 250px;
+  margin-left: 20%;
+  border: none;
+  border-radius: 5px;
+}
+
 
 @media (max-width: 700px) {
   .nav-links ul li {
@@ -92,25 +138,3 @@ nav .fa {
 
 
 
-/* .download-button{
-  display: inline-block;
-  text-decoration: none;
-  color: rgb(96, 91, 91);
-  padding: 12px 34px;
-  background: white;
-  position: relative;
-  cursor: pointer;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  top: 5%;
-  left: 10%;
-  align-items: center;
-}
-
-.download-button:hover{
-  background-color: #e6b1ad;
-   box-shadow: 0px 15px 20px  #dec5c3;
-  color: #fff;
-  transform: translateY(-7px);
-  transition: .5s;
-} */
