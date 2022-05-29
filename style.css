@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-html, body, .page1, .page2, .page3, .page4 {
+html, body{
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -125,9 +125,12 @@ main{
 
 @media (max-width: 700px) {
 
-  html, body, .page1, .page2, .page3, .page4 {
+  html, body {
     max-width: 100%;
     overflow-x: hidden;
+  }
+  body{
+    position: relative;
   }
   
   nav{
