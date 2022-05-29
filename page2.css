@@ -41,7 +41,7 @@
     justify-content: center;
     align-items: center;
   }
-
+  
   .person-pic{
     width: 200px;
     height: 200px;
@@ -49,6 +49,4 @@
     border-radius: 60%;
     margin-bottom: 20px;
   }
-  
-  
 }
