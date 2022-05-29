@@ -57,6 +57,7 @@ nav .fa {
   display: none;
 }
 
+
 @media (max-width: 700px) {
   .nav-links ul li {
     display: block;
@@ -89,28 +90,9 @@ nav .fa {
   }
 }
 
-.text-box{
-  width: 100%;
-  color: white;
-  position: absolute;
-  /* top: 70%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  text-align: center; */
-}
 
-.text-box a{
-  font-size: 30px;
-}
 
-.text-box img{
-  width: 250px;
-  height:500px;
-  position: relative;
-  left: 10%;
-}
-
-.download-button{
+/* .download-button{
   display: inline-block;
   text-decoration: none;
   color: rgb(96, 91, 91);
@@ -127,8 +109,8 @@ nav .fa {
 
 .download-button:hover{
   background-color: #e6b1ad;
-  /* box-shadow: 0px 15px 20px  #dec5c3; */
+   box-shadow: 0px 15px 20px  #dec5c3;
   color: #fff;
   transform: translateY(-7px);
   transition: .5s;
-}
+} */
