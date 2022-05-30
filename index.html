@@ -44,7 +44,7 @@
       <main>
         <div class="download-app-div">
           <p class="tagline">Trade on Events. <br> Show your skills and win Money.</p>
-          <a href="images/chanqo_app.jpeg" download><button class="download-button">Download App</button></a>
+          <a href="download.html" ><button class="download-button">Download App</button></a>
         </div>
         <div class="app-pic-div">
           <img class="app-pic" src="images/chanqo_app.jpeg">
@@ -169,6 +169,14 @@
       function hideMenu(){
         navLinks.style.right = "-200px";
       }
+      function downloadFile()
+      {
+        var a = document.createElement('a');
+        a.href = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+        a.download = 'download';
+        a.click();
+      }
+      
     </script>
 
   </body>
