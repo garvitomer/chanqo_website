@@ -3,8 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="trading opinion, opinion, trade events, event trading">
-    <meta name="description" content="Trade on your prediction skills and make real money. Lots of events in 10+ categories ranging
-    from Economics, Finance, Sports, Weather, Entertainment etc">
+    <meta name="description" content="Trade on your prediction skills and make real money. Lots of events in 10+ categories ranging from Economics, Finance, Sports, Weather, Entertainment etc">
     <title>Chanqo - Trade Your Views</title>
     <link rel = "icon" href = "images/puzzle_green.png" >
     <!-- styling -->
@@ -74,44 +73,146 @@
     <!-- page3 -->
     <section class="page3" id="id_page3">
       <p class="faq-headings">FAQs</p>
-      <div class="faq-item">
-        <!-- 1 -->
-        <div class="faq-question">
-          <p>Is it safe to trade on Chanqo?</p>
+      <div class="faq-row">
+          <Button class="faq-row-item" value="general" onclick="changeFaqDisplay(this.value)">General</Button>
+          <Button class="faq-row-item" value="contract" onclick="changeFaqDisplay(this.value)">Contract</Button>
+          <Button class="faq-row-item" value="payments" onclick="changeFaqDisplay(this.value)">Payments</Button>
+          <Button class="faq-row-item" value="trading" onclick="changeFaqDisplay(this.value)">Trading</Button>
+          <Button class="faq-row-item" value="others" onclick="changeFaqDisplay(this.value)">Others</Button>
+      </div>
+      <div id="general">
+        <div class="faq-item">
+          <!-- 1 -->
+          <div class="faq-question">
+            <p>Is it safe to trade on Chanqo?</p>
+          </div>
+          <div class="faq-answer">
+            <p>Yes. It is 100% safe and legal to trade on Chanqo</p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>Yes. It is 100% safe and legal to trade on Chanqo</p>
+        <!-- 2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>How does Chanqo Works?</p>
+          </div>
+          <div class="faq-answer">
+            <p>Select the event you would like to trade. Choose 'Yes' or 'No' and number of contracts you would like to buy.
+              Chanqo will then match you with another players that has opposite view.</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>Maximum Limit per month?</p>
+          </div>
+          <div class="faq-answer">
+            <p>You can add upto &#8377;5000 per month to your wallet.</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>How to withdraw Money?</p>
+          </div>
+          <div class="faq-answer">
+            <p>You can withdraw money at any time. All payement withdrawals will be confirmed within 12-24 hrs.
+              There is a limit of &#8377;1000 per withdrawal</p>
+          </div>
         </div>
       </div>
-      <!-- 2 -->
-      <div class="faq-item">
-        <div class="faq-question">
-          <p>How does Chanqo Works?</p>
+      <!-- contract div -->
+      <div id="contract">
+        <div class="faq-item">
+          <!-- 1 -->
+          <div class="faq-question">
+            <p>What is a contract?</p>
+          </div>
+          <div class="faq-answer">
+            <p>A contract gives players the ability to make trades on their opinions about a question.
+            Each contract has two options 'Yes' and 'No'. Every quiz after expiry will settle to either 'Yes' or 'No'.
+            You will get &#8377; 1 for every correctly answered contract and &#8377; 0 for wrong one.
+          </p>
+          </div>
         </div>
-        <div class="faq-answer">
-          <p>Select the event you would like to trade. Choose 'Yes' or 'No' and number of contracts you would like to buy.
-            Chanqo will then match you with another players that has opposite view.</p>
+        <!-- 2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>Any Example?</p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Sure. Let's say you think India GDP will be more than 8% for 2022-23 and you bought 200 'Yes' contract @ &#8377; 0.4.  i.e. Total value of &#8377; 80. If actual GDP comes greater than 8%, then this contract will be settled at 'Yes'.
+               As you had 200 bought 'Yes' contract you will get &#8377; 1 for each contract  i.e. &#8377; 200.
+               And your gross profit in this trade will be &#8377; (200 - 80) = &#8377; 120. 
+            </p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>I have bought both "Yes" and "No", why I have "No" position?</p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Each contract has two option either "Yes" or "No". So, if you buy both then effectively, you have no position.
+              You can calculate your profit as (1-"Yes" buy price + "No" buy price). 
+            </p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>How to withdraw Money?</p>
+          </div>
+          <div class="faq-answer">
+            <p>You can withdraw money at any time. All payement withdrawals will be confirmed within 12-24 hrs.
+              There is a limit of &#8377;1000 per withdrawal</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div id="trading">
+        <div class="faq-item">
+          <!-- 1 -->
+          <div class="faq-question">
+            <p>Is idsdssdt safe to trade on Chanqo?</p>
+          </div>
+          <div class="faq-answer">
+            <p>Yes. It is 100% safe and legal to trade on Chanqo</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>How does Chanqo Works?</p>
+          </div>
+          <div class="faq-answer">
+            <p>Select the event you would like to trade. Choose 'Yes' or 'No' and number of contracts you would like to buy.
+              Chanqo will then match you with another players that has opposite view.</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>Maximum Limit per month?</p>
+          </div>
+          <div class="faq-answer">
+            <p>You can add upto &#8377;5000 per month to your wallet.</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>How to withdraw Money?</p>
+          </div>
+          <div class="faq-answer">
+            <p>You can withdraw money at any time. All payement withdrawals will be confirmed within 12-24 hrs.
+              There is a limit of &#8377;1000 per withdrawal</p>
+          </div>
         </div>
       </div>
-      <!-- 3 -->
-      <div class="faq-item">
-        <div class="faq-question">
-          <p>Maximum Limit per month?</p>
-        </div>
-        <div class="faq-answer">
-          <p>You can add upto &#8377;5000 per month to your wallet.</p>
-        </div>
-      </div>
-      <!-- 4 -->
-      <div class="faq-item">
-        <div class="faq-question">
-          <p>How to withdraw Money?</p>
-        </div>
-        <div class="faq-answer">
-          <p>You can withdraw money at any time. All payement withdrawals will be confirmed within 12-24 hrs.
-            There is a limit of &#8377;1000 per withdrawal</p>
-        </div>
-      </div>
+      
     </section>
       
       <!-- page4 -->
@@ -167,6 +268,7 @@
     <!----- JavaScript for Toggle Menu ------>
     <script>
       var navLinks = document.getElementById("navLinks");
+      changeFaqDisplay("general");
       function showMenu(){
         navLinks.style.right = "0px";
       }
@@ -179,6 +281,18 @@
         a.href = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
         a.download = 'download';
         a.click();
+      }
+      function changeFaqDisplay(id){
+        const faqRow = ["general","contract","trading"]
+        for (let i =0;i<faqRow.length;i++){
+          if(faqRow[i]!=id){
+            document.getElementById(faqRow[i]).style.display = "none";
+          }
+          else{
+            document.getElementById(faqRow[i]).style.display = "block";
+            
+          }
+        }
       }
       
     </script>
