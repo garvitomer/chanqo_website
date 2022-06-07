@@ -76,9 +76,9 @@
       <div class="faq-row">
           <Button class="faq-row-item" value="general" onclick="changeFaqDisplay(this.value)">General</Button>
           <Button class="faq-row-item" value="contract" onclick="changeFaqDisplay(this.value)">Contract</Button>
-          <Button class="faq-row-item" value="payments" onclick="changeFaqDisplay(this.value)">Payments</Button>
+          <Button class="faq-row-item" value="payment" onclick="changeFaqDisplay(this.value)">Payments</Button>
           <Button class="faq-row-item" value="trading" onclick="changeFaqDisplay(this.value)">Trading</Button>
-          <Button class="faq-row-item" value="others" onclick="changeFaqDisplay(this.value)">Others</Button>
+          <Button class="faq-row-item" value="other" onclick="changeFaqDisplay(this.value)">Others</Button>
       </div>
       <div id="general">
         <div class="faq-item">
@@ -158,10 +158,10 @@
               You can calculate your profit as  &#8377; (1-"Yes" buy price + "No" buy price). 
             </p>
           </div>
-        </div>
-        
+        </div>        
       </div>
 
+      <!-- trading -->
       <div id="trading">
         <!-- 1 -->
         <div class="faq-item">
@@ -203,7 +203,92 @@
           </div>
         </div>
       </div>
-      
+      <!-- payment -->
+      <div id="payment">
+        <!-- 1 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>
+              How to add money to wallet and how much time will it take?
+            </p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              You can add money anytime by going to wallet and click 'Add Money to Wallet'.
+              Money will be added to your wallet after successful transactions. 
+              Please note you can add upto &#8377; 5000 per month.
+            </p>
+          </div>
+        </div>
+      <!-- 2 -->
+      <div class="faq-item">
+          <div class="faq-question">
+            <p>Why my transaction getting failed?</p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Sometimes there maybe issues like low connectivity, power outage etc. due to which 
+              a transaction failed. You can retry adding money to your wallet.
+            </p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>Money is deducted from bank but it is not showing on the wallet?</p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Sometime it might take few minutes for wallet to show updated balance.
+              If money is deducted for a failed transaction then it will be refunded to your source 
+              account within 5-7 days.
+            </p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>Why I have not receievd my withdrawal yet?</p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Your withdrawal will be confirmed within 24 hours 
+              and money will be credited to your bank account within 4-7 days. If not, please contact us.
+            </p>
+          </div>
+        </div>
+      </div>
+
+       <!-- other -->
+      <div id="other">
+        <!-- 1 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>
+              Why am I not able to login or verify my phone number?
+            </p>
+          </div>
+          <div class="faq-answer">
+            <p>
+              If you facing any issues regarding login or phone verification, please contact us.
+            </p>
+          </div>
+        </div>
+          <!-- 1 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <p>
+              I have some other issue not mentioned here?
+            </p>
+          </div>
+          <div class="faq-answer">
+            <p>
+             For any issues email us at contact@chanqo.com.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </section>
       
       <!-- page4 -->
@@ -274,7 +359,7 @@
         a.click();
       }
       function changeFaqDisplay(id){
-        const faqRow = ["general","contract","trading"]
+        const faqRow = ["general","contract","trading","payment","other"]
         for (let i =0;i<faqRow.length;i++){
           if(faqRow[i]!=id){
             document.getElementById(faqRow[i]).style.display = "none";
